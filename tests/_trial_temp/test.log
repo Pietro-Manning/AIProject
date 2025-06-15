@@ -1,0 +1,6 @@
+2025-05-05 02:20:48+0200 [-] Log opened.
+2025-05-05 02:20:48+0200 [-] --> test_prepare_data.TestSplitDataset.test_empty_dataframe <--
+2025-05-05 02:20:49+0200 [-] --> test_prepare_data.TestSplitDataset.test_invalid_val_size <--
+2025-05-05 02:20:49+0200 [-] --> test_prepare_data.TestSplitDataset.test_non_dataframe_input <--
+2025-05-05 02:20:49+0200 [-] --> test_prepare_data.TestSplitDataset.test_random_state_stability <--
+2025-05-05 02:20:49+0200 [-] --> test_prepare_data.TestSplitDataset.test_split_ratios <--

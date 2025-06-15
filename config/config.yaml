@@ -1,0 +1,20 @@
+batch_size: 8
+learning_rate: 1e-5
+num_head: 8
+ff_dim_bert: 2048
+ff_dim_standard: 256
+max_seq_length: 128
+normalization: 1e-6
+vocab_size: 30522
+shuffle_buffer_size: 12000
+use_bert_embedding: False
+epochs: 500
+embedding_dim: 128
+bert_preprocess_model: "https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3"
+bert_model: "https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-768_A-12/2"
+datasets_raw_path: 'C:\Users\pietr\AIProject\data\raw\'
+datasets_processed_path: 'C:\Users\pietr\AIProject\data\processed\'
+
+# inference params
+model_path_4_inference: 'C:\Users\pietr\AIProject\src\models\data\standard_embedding\run_1\model_run_1.keras'
+threshold: 0.3

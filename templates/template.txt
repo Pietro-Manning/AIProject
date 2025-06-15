@@ -1,0 +1,69 @@
+
+
+=====================================================================================================================
+                                      MULTILABEL CLASSIFIER - Experiment n. {num_experiment}
+=====================================================================================================================
+
+Batch size: {batch_size}
+Learning rate: {learning_rate}
+Max sequence length: {max_seq_length}
+Normalization: {normalization}
+Epochs: {epochs}
+Vocab size: {vocab_size}
+Buffer size for shuffling: {shuffle_buffer_size}
+---------------------------------------------------------------------------------------------------------------------
+
+Train elements: {train_count}
+Validation elements: {validation_count}
+Test elements: {test_count}
+---------------------------------------------------------------------------------------------------------------------
+
+Use BERT Embedding: {use_bert_embedding}
+
+Bert preprocess model: {bert_preprocess_model}
+Bert model: {bert_model}
+
+Note that if bert embedding is NOT enabled (Use BERT Embedding = False),
+Bert preprocess model and Bert model values are not considered during training.
+Instead, the classic embedding layer will be used
+---------------------------------------------------------------------------------------------------------------------
+
+                                         TRAINING AND VALIDATION METRICS
+
+Final Training Loss: {final_training_loss}
+Final Validation Loss: {final_validation_loss}
+
+Final Training AUC: {final_training_auc}
+Final Validation AUC: {final_validation_auc}
+
+Final Training Precision: {final_training_precision}
+Final Validation Precision: {final_validation_precision}
+
+Final Training Recall: {final_training_recall}
+Final Validation Recall: {final_validation_recall}
+
+Final Training Binary Accuracy: {final_training_binary_accuracy}
+Final Validation Binary Accuracy: {final_validation_binary_accuracy}
+
+Total Epochs Trained: {epochs_trained}
+
+Total Training Time: {training_time}
+---------------------------------------------------------------------------------------------------------------------
+
+                                                  TEST METRICS
+
+Test loss: {test_loss}
+Test AUC: {test_auc}
+Test Precision: {test_precision}
+Test Recall: {test_recall}
+Test Binary Accuracy: {test_binary_accuracy}
+
+---------------------------------------------------------------------------------------------------------------------
+
+threshold for inference: {threshold}
+---------------------------------------------------------------------------------------------------------------------
+
+MODEL TRAINED ON NVIDIA RTX 4090
+Compute capability: 8.9
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
